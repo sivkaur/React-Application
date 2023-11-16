@@ -1,4 +1,4 @@
-# React Application
+# React Weather App
 
 ## Introduction
 A React App that has two views, i.e. 'About Me' and 'My Town'
