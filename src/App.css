@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #EED6D3;
+}
+
+button {
+  background-color: #333; 
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555; 
+}
+
+.navigationBar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  height: 50px;
+}
+
+.navigationLink {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.aboutMe {
+  background-color: #fff;
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMe h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; 
+  background-color: #EED6D3;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMe p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #666; 
+}
+
+.myTown {
+  background-color: #fff;
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ .myTown h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px dashed #EED6D3;
+} 
+
+.myTown img {
+  max-width: 10%; 
+  margin: 10px 0;
+}
+
+.currentWeather {
+  margin: 20px 0;
+}
+
+.currentWeather h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px dashed #EED6D3;
+  border-top: 2px dashed #EED6D3;
+}
+
+.currentWeather p {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 18px;
+}
+
+#haifax  {
+  max-width: 100%; 
+  width: 100%;
+  margin: 10px 0;
+}
